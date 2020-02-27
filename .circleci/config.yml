@@ -4,8 +4,8 @@ orbs:
 jobs:
   build-and-test:
     executor: 
-    name: node/default
-    tag: '10.10'
+      name: node/default
+      tag: '10.10'
       name: node/default
     steps:
       - checkout
